@@ -1,2 +1,2 @@
 # BrickBreaker
-![](restar.gif)
+![](gameplay.gif)
