@@ -13,8 +13,8 @@ public class MainClass extends PApplet{
 		// makes screen size
 		size(nCols,nRows);
 		// targets 
-		for (int row=1; row<=1; row++) {
-			for (int col=1; col<=1; col++) {
+		for (int row=1; row<=5; row++) {
+			for (int col=1; col<=10; col++) {
 				t = new Brick(row,col);
 				// add target object to entity 
 		        entities.add(t);
