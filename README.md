@@ -21,7 +21,7 @@ After player has successfully destroyed all targets, game score is displayed. SC
 I included this feature because I wanted a way to make the game more fun by a high score that is achived not just by destoying the targets, but with skill and most importantly, fun!
 
 ## Restart
-Can you beat your high score?! <br>
+Can you beat your high score?!<br>
 ![](restart.gif) <br>
 
 After a player has successfully destroyed all bricks, their score is displayed with an option to "Play Again?"
@@ -38,7 +38,12 @@ After a player has successfully destroyed all bricks, their score is displayed w
 - **Barriers** 6 barriers forces player to shoot around them. If a bullet collides with a barrier, the bullet richochets back. 
 
 # About the project 
+Brick Breaker relies heavily on Object-Oriented concepts to track user inputs, collision detection and updating animations. <br>
+- Each game entity has ```update()``` and ```draw()``` abstraction that allows the Applet driver to track/update status of entities and reposition them accordingly. 
+- Brick, Bullet Base, and Barrier entities share a superclass of Block and inherits object collision tracking methods and  intiialization of entity parameters. 
+- Applet driver validates user inputs and tracks object movements to direct updates and collision handling to appropriate entity class and updates/repaints Applet. 
 
 
 # Future scope
-test
+- Add increasing levels of gameplay
+- Introduce new challenges such as varying brick target speed and adding more bricks after every set time interval. 
