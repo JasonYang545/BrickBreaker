@@ -21,7 +21,7 @@ After player has successfully destroyed all targets, game score is displayed. SC
 I included this feature because I wanted a way to make the game more fun by a high score that is achived not just by destoying the targets, but with skill and most importantly, fun!
 
 ## Restart
-Can you beat your high score?!
+Can you beat your high score?! <br>
 ![](restart.gif) <br>
 
 After a player has successfully destroyed all bricks, their score is displayed with an option to "Play Again?"
