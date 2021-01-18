@@ -64,7 +64,6 @@ public class MainClass extends PApplet{
 		        				exit();
 		        			}
 		        		}
-		        		System.out.println(score);
 		        		// sets bullet on base -> bullet at bottom of screen
 			        	if (bullet.dy<0) {
 			        		bullet.setOnBase();
